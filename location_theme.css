@@ -1,0 +1,16 @@
+#travel {
+    list-style-image: url("calendar.png");
+}
+
+#airline {
+    list-style-image: url("plane.png");
+}
+
+#lodging {
+    list-style-image: url("tent.png");
+}
+
+.col-md-1 {
+
+    background: #e3e8e1;
+}
