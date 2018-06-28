@@ -1,15 +1,35 @@
 <html>
-<head><link rel="stylesheet" href="theme.css" /></head>
-<body><ul>
-    <li>Travel Date: start of October</li>
-    <li>Airline: United</li>
-    <li>Lodging Plan: mix of <id=#camping>camping</camping> and <id=#hotel>hotel</hotel></li>
+<head>
+    <link rel="stylesheet" href="location_theme.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="iceland.html">Iceland</a></li>
+      <li class="active"><a href="hawaii.html">Hawaii</a></li>
+      <li><a href="spain.html">Spain</a></li>
+    </ul>
+</nav>
+
+    <ul>
+    <li id="travel">Travel Date: start of October</li>
+    <li id="airline">Airline: United</li>
+    <li id="lodging">Lodging Plan: mix of camping and hotel</li>
 </ul>
 
-<ul>
-    <li>Interesting thing 1</li>
-    <li>Interesting thing 2</li>
-    <li>Interesting thing 3</li>
-</ul>
+<!-- Bootstrap grid -->
+<div class="row">
+  <div class="col-md-1">Interesting Fact</div>
+  <div class="col-md-1">Interesting Fact</div>
+  <div class="col-md-1">Interesting Fact</div>
+  <div class="col-md-1">Interesting Fact</div>
+  <div class="col-md-1">Interesting Fact</div>
+</div>
+
+
 </body>
 </html>

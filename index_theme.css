@@ -1,14 +1,11 @@
 body {
-    background: #c7e8c2
+    background: #e3e8e1
 }
-
 
 table {
     border: 4px solid black;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     background: #c4e0ed;
-
-
 }
 
 th {
@@ -24,4 +21,16 @@ td {
 img {
     width:100%;
     height:auto;
+}
+
+/* make the table and images go away when the page is small */
+
+@media screen and (max-width:600px) {
+    td {
+        border:none;
+    }
+
+    img {
+        display:none;
+    }
 }
