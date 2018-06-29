@@ -1,16 +1,26 @@
+#travel, #airline, #lodging {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px; }
+  #travel::first-letter, #airline::first-letter, #lodging::first-letter {
+    font-style: italic;
+    font-size: 30px; }
+
 #travel {
-    list-style-image: url("calendar.png");
-}
+  list-style-image: url("calendar.png"); }
 
 #airline {
-    list-style-image: url("plane.png");
-}
+  list-style-image: url("plane.png"); }
 
 #lodging {
-    list-style-image: url("tent.png");
-}
+  list-style-image: url("tent.png"); }
 
 h2 {
-    text-align: center;
+  text-align: center; }
 
-}
+#basics {
+  background-color: #e8c7e5; }
+
+.row .col-3:hover {
+  background-color: #e8c7e5; }
+
+/*# sourceMappingURL=location_theme.css.map */

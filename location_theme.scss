@@ -1,0 +1,41 @@
+$location_background: #e8c7e5;
+
+%list_format {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    &::first-letter {
+        font-style: italic;
+        font-size: 30px;
+    }
+
+}
+
+#travel {
+    @extend %list_format;
+    list-style-image: url("calendar.png");
+}
+
+#airline {
+    @extend %list_format;
+    list-style-image: url("plane.png");
+}
+
+#lodging {
+    @extend %list_format;
+    list-style-image: url("tent.png");
+}
+
+h2 {
+    text-align: center;
+
+}
+
+#basics {
+    background-color:$location_background;
+}
+
+.row {
+    .col-3:hover {
+        background-color:$location_background;
+    }
+}

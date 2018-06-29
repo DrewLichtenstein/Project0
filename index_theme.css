@@ -1,3 +1,7 @@
+h2, p{
+    padding-left:30px;
+}
+
 body {
     background: #e3e8e1
 }
@@ -34,3 +38,4 @@ img {
         display:none;
     }
 }
+
