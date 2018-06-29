@@ -15,7 +15,6 @@ th {
 
 td {
     padding:10px;
-    border:6px solid gray;
 }
 
 img {
@@ -25,7 +24,8 @@ img {
 
 /* make the table and images go away when the page is small */
 
-@media screen and (max-width:600px) {
+@media (max-width:600px) {
+
     td {
         border:none;
     }
