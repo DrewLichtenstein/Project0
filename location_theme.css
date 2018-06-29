@@ -1,6 +1,7 @@
 #travel, #airline, #lodging {
   font-family: Tahoma, Geneva, sans-serif;
-  font-size: 20px; }
+  font-size: 20px;
+  padding-left: 30px; }
   #travel::first-letter, #airline::first-letter, #lodging::first-letter {
     font-style: italic;
     font-size: 30px; }

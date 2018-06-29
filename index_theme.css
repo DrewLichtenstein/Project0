@@ -26,7 +26,7 @@ img {
     height:auto;
 }
 
-/* make the table and images go away when the page is small */
+/* if sceen is too small, get rid of the table cells and images*/
 
 @media (max-width:600px) {
 
