@@ -10,6 +10,9 @@ h3 {
   background-color: #32fff1;
   text-align: center; }
 
+body {
+  background: #e3e8e1; }
+
 #travel {
   list-style-image: url("calendar.png"); }
 
